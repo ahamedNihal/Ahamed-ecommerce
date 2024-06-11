@@ -1,0 +1,585 @@
+*{
+    margin: 0; padding: 0;
+}
+body{
+    font-family: "Montserrat", sans-serif;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.hi1{
+    width: 100%; margin: 0 auto;
+    height: 50px;  background-color: rgb(255, 255, 255);
+    display: flex;  text-decoration: none; list-style: none; justify-content: space-evenly; align-items:center;
+}
+.border{
+    width: 90%; height: 12vh;
+    margin: 0 auto; background-color: rgb(255, 255, 255);
+    display: flex; align-items: center; 
+justify-content: space-between;
+position: relative; justify-content: space-around;
+}
+.posi{
+    position: absolute; left: 32%; top: 20%;
+}
+.icon{
+    display: flex; 
+     gap: 20px; 
+}
+.posis{
+    position: absolute; top:23%; left: 90%;
+}
+.border input{
+    padding: 10px; width: 250px; border-radius: 10px;
+}
+.black{
+    width: 100%; height: 70px; background-color:rgb(16,16,17);   display: flex;
+     justify-content: center; align-items: center; 
+
+}
+.black1{
+    display: flex; justify-content: space-between; gap: 40px;
+}
+.black a{
+    text-decoration: none; color: white; justify-content: space-between;
+}
+.control{
+    width: 80%;
+    height: 100%;
+    margin: 30px auto; 
+}
+.controlm1{
+    width: 100%;
+    position: relative;
+}
+.controlm12{
+    position: absolute;
+    left: 0;
+    opacity: 0;
+}
+.controlm1:hover .controlm12{
+    opacity: 1;
+    transition: 1s;
+
+}
+.controlm1 img {
+    width:90%;
+    height: 75vh;
+    border-radius: 20px;
+}
+.controlm{
+display: flex;
+}
+.controlm2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.controlm31{
+    display: flex;
+    gap: 20px;
+}
+.controlm3{
+    display:flex ;
+    flex-direction: column;
+    gap: 20px;
+}
+.controlm32{
+    display:flex ;
+    flex-direction: column;
+    gap: 10px;
+}
+.controlm32 button{
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgb(11,156,139) ;
+    color: white;
+    border: none;
+}
+.controlm4{
+    display: flex;
+    gap: 20px;   
+}
+.controlm4 button{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(63, 220, 199);
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+.controlm4 h5{
+    display: flex;
+    align-items: center;
+}
+.controlm4 button:hover{
+    background-color: white;
+    color: rgb(60, 232, 199);
+}
+.controlm41{
+    display: flex;
+    gap: 20px;   
+}
+.controlm41 button{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(63, 220, 199);
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+.controlm41 h5{
+    display: flex;
+    align-items: center;
+}
+.controlm5{
+    display: flex;
+    gap: 30px;
+}
+.controlm51 {
+    padding: 10px;
+    width: 180px;
+    height: 50px;
+    border-radius: 10px;
+    background-color:rgb(11,156,139);
+    color: white;
+    border: none;
+} 
+.controlm52{
+    padding: 10px;
+    width: 180px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: none;
+}
+.controlm51:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+.controlm52:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+.controlm5{
+    margin: 5px auto;
+}
+.controlm6{
+    display: flex;
+    gap: 15px;
+}
+.controlm6 a{
+    text-decoration: none;
+    color: black;
+}
+.controlm7{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.controlm71{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.controlm8{
+    display: flex;
+    gap: 12px;
+    flex-direction: column;
+}
+.controlm9{
+    height: 1px;
+    background-color: rgb(234,234,235);
+}
+.controlm10{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.controlm102{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+}
+.controlm102 img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+   
+}
+.controlm1021 button{
+    padding: 7px;
+    width: 100px;
+    border-radius: 5px;
+    border-color: rgb(234,234,235) ;
+    position: absolute;
+    left: 56px;
+    top: 150px;
+    opacity: 0;
+}
+.controlm1021 button:hover{
+    background-color:rgb(11,156,139) ;
+    color: white;
+}
+.controlm102:hover .controlm1021 button{
+    opacity: 1;
+    transition: 1s;
+}
+.controlm100{
+    display: flex;
+}
+.conrolm111{
+    display: flex;
+    gap: 20px;
+}
+.controlm111 a{
+    text-decoration: none;
+    color: black;
+}
+.control2{
+    height: 110vh;
+    overflow: scroll;
+    width: 100%;
+}
+.imgs{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.imgs1{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+.imgss{
+    display: flex;
+    gap: 30px;
+}
+.review{
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.review1{
+    display: flex;
+    gap: 70px;
+}
+.lastpro h1{
+    display:flex ;
+    text-align: center;
+    justify-content: center;
+}
+.lastpro{
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.lastpro1{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+}
+.lastpro img{
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+}
+.lastpro11{
+    position: absolute;
+    left: 0;
+    opacity: 0;
+}
+.lastpro1:hover .lastpro11{
+    opacity: 1;
+    transition: 1s;
+}
+.lastpro112{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+    text-align: center;
+}
+.lastproo{
+    display: flex;
+    gap: 65px;
+}
+.lastproicon button{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    opacity:0;
+}
+.lastproicon button:hover{
+    background-color: rgb(11,156,139) ;
+    color: white;
+}
+.lastpro1:hover .lastproicon button{
+   opacity: 1;
+   transition: 1s;
+}
+.lastproicon{
+    top: 200px;
+    left: 50px;
+    position: absolute;
+    
+}
+.final{
+    width: 80%;
+    margin: 90px auto;
+}
+.final h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.final11{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    text-align: center;
+}
+.final0{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.finall{
+    display: flex;
+    gap: 60px;
+    margin: 35px auto;
+}
+.final1 img{
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+}
+.question{
+    width: 80%;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.question0 h1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.question1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 1px solid gainsboro;
+    padding: 10px;
+    border-radius: 5px;
+}
+.enquiry{
+    width: 80%;
+    margin: 60px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+   
+}
+.enquiry1 button{
+    background-color: rgb(11,156,139)  ;
+    color: white;
+    width: 200px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+.enquiry1 button:hover{
+    background-color: black;
+    color: white;
+    transition: 1s;
+}
+.footer1{
+    display: flex;
+    width: 80%;
+    margin: 40px auto;
+    gap: 50px;
+}
+.footer{
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(234,234,235);
+}
+.footer11{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin: 30px auto;
+    width: 30%;
+}
+.footer22{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 30px auto;
+    width: 20%;
+}
+.footer33{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin: 30px auto;
+}
+.footer44{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin: 30px auto;
+    position: relative;
+}
+.footer a{
+    text-decoration: none;
+    color: black;
+}
+.footer input{
+    width: 50%;
+    border-radius: 20px;
+    padding: 10px;
+}
+.footer44 button{
+    height: 35px;
+    border-radius: 10px; 
+    background:rgb(11,157,138); border: none; color: white;
+    width: 20%;
+    position: absolute;
+    left: 250px;
+    top: 113px;
+}
+.footer44 button:hover{
+    background-color: black;
+    color: white;
+}
+@media(max-width:1200px){
+.controlm1 img{
+    width: 100%;
+    height: 35vh; 
+}
+.controlm1{
+    width: 90%;
+}
+.imgs1{
+    width: 100px;
+    height: 100px;
+}
+.imgss{
+    gap: 30px;
+}
+.imgs{
+    gap: 30px;
+}
+.footer44 button{
+    left: 260px;
+    top: 60px;
+}
+}
+@media(max-width:600px){
+    .black{
+        font-size: xx-small;
+    }
+    .backg2{
+        height: 90px;
+    }
+    .border h5{
+        display: none;
+    }
+    .posi{
+        display: none;
+    }
+    .icon{
+        display: none;
+    }
+    .border input {
+        width: 100px;
+    }
+    .hi1{
+        display: none;
+    }
+    .controlm{
+        flex-direction: column;
+    }
+    .imgs{
+        gap: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+    .controlm100{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .controlm102 img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+    .lastproo{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin: 20px
+    }
+    .lastproicon{
+        top: 130px;
+        left: 14px;
+    }
+    .lastpro img{
+        height: 200px;
+        width: 120px;
+    }
+    .finall{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    
+    }
+    .final{
+        margin: 20px auto;
+    }
+    .footer22{
+        display: none;
+    }
+    .footer33{
+        display: none;
+    }
+    .footer44{
+        margin: 0 auto;
+    }
+    .footer11{
+        margin: 30px auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .footer1{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .footer44 img{
+        width: 100%;
+    }
+    .footer44 button{
+        top: 64px;
+        left: 200px;
+        width: 35%;
+    }
+}

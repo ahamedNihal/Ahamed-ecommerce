@@ -1,0 +1,223 @@
+*{
+    margin: 0; padding: 0;
+}
+body{
+    font-family: "Montserrat", sans-serif;
+}
+.hi1{
+     width: 100%; margin: 0 auto;
+     height: 50px; 
+     background-color: rgb(255, 255, 255);
+     display: flex;  text-decoration: none; 
+     list-style: none; 
+     justify-content: space-evenly;
+     align-items:center;
+}
+.border{
+     width: 90%;
+     height: 12vh;
+     margin: 0 auto;
+     background-color: rgb(255, 255, 255);
+     display: flex; align-items: center; 
+     justify-content: space-between;
+     position: relative;
+     justify-content: space-around;
+}
+.posi{
+     position: absolute; left: 32%; top: 20%;
+}
+.icon{
+     display: flex; 
+     gap: 20px; 
+}
+.posis{
+     position: absolute; top:23%; left: 90%;
+}
+.border input{
+     padding: 10px; width: 250px; border-radius: 10px;
+}
+.black{
+     width: 100%; height: 70px; background-color:rgb(16,16,17);   display: flex;
+     justify-content: center; align-items: center; 
+
+}
+.black1{
+     display: flex; justify-content: space-between; gap: 40px;
+}
+.black a{
+      text-decoration: none; color: white; justify-content: space-between;
+}
+.color{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(234,234,235);
+    height: 18vh;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    gap: 20px;
+}
+.contact1{
+    width: 80%;
+    margin: 80px auto;
+}
+.contact12{
+    border: solid rgb(234,234,235);
+    padding: 55px;
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    text-align: center;
+}
+.contact11{
+    display: flex;
+    gap: 50px;
+}
+.contact2{
+    width: 80%;
+    background-color: rgb(234,234,235);
+    height: 60vh;
+    border-radius: 20px;
+    margin: 15px auto;
+    padding: 40px 50px 50px;
+
+}
+.contact21{
+     width: 100%;
+}
+.contact212{
+    margin: 35px auto;
+    width: 100%;
+    display: flex;
+     gap: 40px;
+     position: relative;
+}
+.contact212 input{
+     padding:10px 15px;
+     width: 550px;
+     height: 50px;
+     border-radius: 10px;
+}
+.contact2122{
+     position: absolute;
+     top: 11px;
+     left: 525px;
+     font-size: xx-large;
+}
+.contact2123{
+     position: absolute;
+     top: 11px;
+     left: 1125px;
+     font-size: xx-large;
+}
+.contact3 input{
+     padding:20px 15px;
+     width: 97%;
+     height: 75px;
+     border-radius: 10px;
+     
+}
+.contact3{
+     position: relative;
+}
+.contact31{
+     position: absolute;
+     left: 93%;
+     font-size: xx-large;
+     top: 35px;
+}
+.contact4{
+     margin: 30px auto;
+     display: flex;
+     justify-content: left;
+}
+.contact4 button{
+     background-color: rgb(11,156,139)  ;
+     color: white;
+     width: 200px;
+     height: 40px;
+     padding: 10px;
+     border-radius: 10px;
+     border: none;
+ }
+ .contact4 button:hover{
+     background-color: black;
+     color: white;
+     transition: 1s;
+ }
+ .contact5{
+     width: 86%;
+     margin: 40px auto;
+
+ }
+ .contact5 iframe{
+     width: 100%;
+     height: 70vh;
+     border-radius: 10px;
+ }
+ .footer1{
+     display: flex;
+     width: 80%;
+     margin: 40px auto;
+     gap: 50px;
+ }
+ .footer{
+     width: 100%;
+     height: 50vh;
+     background-color: rgb(234,234,235);
+ }
+ .footer11{
+     display: flex;
+     flex-direction: column;
+     gap: 25px;
+     margin: 30px auto;
+     width: 30%;
+ }
+ .footer22{
+     display: flex;
+     flex-direction: column;
+     gap: 20px;
+     margin: 30px auto;
+     width: 20%;
+ }
+ .footer33{
+     display: flex;
+     flex-direction: column;
+     gap: 25px;
+     margin: 30px auto;
+ }
+ .footer44{
+     display: flex;
+     flex-direction: column;
+     gap: 25px;
+     margin: 30px auto;
+     position: relative;
+ }
+ .footer a{
+     text-decoration: none;
+     color: black;
+ }
+ .footer input{
+     width: 50%;
+     border-radius: 20px;
+     padding: 10px;
+ }
+ .footer44 button{
+     height: 35px;
+     border-radius: 10px; 
+     background:rgb(11,157,138); border: none; color: white;
+     width: 20%;
+     position: absolute;
+     left: 250px;
+     top: 113px;
+ }
+ .footer44 button:hover{
+     background-color: black;
+     color: white;
+}
+@media(max-width:1200px){
+    
+}
