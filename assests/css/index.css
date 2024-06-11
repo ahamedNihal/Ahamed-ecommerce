@@ -5,16 +5,16 @@ body{
     font-family: "Montserrat", sans-serif;
 }
 .hi1{
-     width: 100%; margin: 0 auto;
+     width: 80%; margin: 0 auto;
      height: 50px; 
      background-color: rgb(255, 255, 255);
      display: flex;  text-decoration: none; 
      list-style: none; 
-     justify-content: space-evenly;
+     justify-content: space-between;
      align-items:center;
 }
 .border{
-     width: 90%;
+     width: 80%;
      height: 12vh;
      margin: 0 auto;
      background-color: rgb(255, 255, 255);
@@ -22,17 +22,20 @@ body{
      align-items: center; 
      justify-content: space-between;
      position: relative;
-     justify-content: space-around;
 }
 .posi{
-     position: absolute; left: 32%; top: 20%;
+     position: absolute; 
+     left: 28%;
+      top: 20%;
 }
-.icon{
+.icon p{
      display: flex; 
-     gap: 20px; 
+     gap: 30px; 
 }
 .posis{
-     position: absolute; top:23%; left: 90%;
+     position: absolute; 
+     top:21%;
+     left: 95%;
 }
 .border input{
      padding: 10px; width: 250px; border-radius: 10px;
@@ -41,6 +44,9 @@ body{
      width: 100%; height: 70px; background-color:rgb(16,16,17);   display: flex;
      justify-content: center; align-items: center; 
 
+}
+.black1 h3 a:hover{
+    color: rgb(26,181,129);
 }
 .black1{
      display: flex; justify-content: space-between; gap: 40px;
@@ -73,6 +79,25 @@ body{
 .variety{
     width: 80%; height: 100%; background: #ffffff; display: flex; margin: 50px auto;  display: grid; grid-template-columns: repeat(5,1fr); gap: 20px;
 }
+.variety1:hover{
+    color: rgb(26, 191, 155);
+}
+.variety2:hover{
+    color: rgb(26, 191, 155);
+}
+.variety3:hover{
+    color: rgb(26, 191, 155);
+}
+.variety4:hover{
+    color: rgb(26, 191, 155);
+}
+.variety5:hover{
+    color: rgb(26, 191, 155);
+}
+.variety h4{
+    margin-top: 5px;
+    text-align: center;
+}
 .img1{
     width: 90%; height: 220px; border-radius: 20px;  
 }
@@ -86,8 +111,17 @@ body{
     width: 80%; height: 100%; 
     margin: 40px auto; display: grid; grid-template-columns: repeat(4,1fr); gap: 50px;
 }
+.parent h4{
+    text-align: center;
+}
+.parent p{
+    text-align: center;
+}
 .child1{
-position: relative; display: flex; flex-direction: column; gap: 20px;
+position: relative; display: flex; flex-direction: column; gap: 10px;
+}
+.child1 h4:hover{
+    color: rgb(26, 191, 155) ;
 }
 .images1{
     width: 100%; height:250px ;
@@ -158,7 +192,9 @@ width: 10%; height: 30px; background-color:rgb(11,157,138) ; color: #ffffff; bor
    transition: 3.5s;
 }
 .parent2{
-    position: relative; margin: auto 40px;
+    position: relative;
+    margin: auto 40px;
+    gap: 20px;
 }
 .pchild1{
     width: 100%; height:250px ; border-radius: 10px;
@@ -173,6 +209,15 @@ width: 10%; height: 30px; background-color:rgb(11,157,138) ; color: #ffffff; bor
 .parent2:hover .pchild2{
     opacity: 1;
     transition: 1s;
+}
+.parent2 h4{
+    text-align: center;
+}
+.parent2 p{
+    text-align: center;
+}
+.parent2 h4:hover{
+    color: rgb(47, 186, 139);
 }
 .child3 button{
     border-radius: 10px; width: 35px; height: 35px;
@@ -208,8 +253,8 @@ width: 10%; height: 30px; background-color:rgb(11,157,138) ; color: #ffffff; bor
 }
 .bot{
     width:80%; margin: 20px auto;
-     height: 200px; 
-    border-radius: 100px;  background-color: white; border: 1px solid gray; display: flex; justify-content: center;
+    height: 200px; 
+    border-radius: 20px;  background-color: white; border: 1px solid gray; display: flex; justify-content: center;
     align-items: center;
 }
 .btnparent{
@@ -316,6 +361,9 @@ width: 10%; height: 30px; background-color:rgb(11,157,138) ; color: #ffffff; bor
     color: white;
 }
 @media (max-width: 600px){
+    .img1{
+        height: 200px;
+    }
     .bg1{
         width: 100%; 
         height: 350px;
@@ -330,7 +378,8 @@ width: 10%; height: 30px; background-color:rgb(11,157,138) ; color: #ffffff; bor
         width: 80%;
     }
     .child2{
-        left: 108px;
+        left: 22px;
+        top: 148px;
     }
     .parent2{
         margin: 10px auto;
@@ -339,10 +388,10 @@ width: 10%; height: 30px; background-color:rgb(11,157,138) ; color: #ffffff; bor
         left: 34%;
     }
     .images1{
-        height: 270px;
+        height: 210px;
     }
      .images2{
-        height: 270px;
+        height: 210px;
     }
     .child1 h4{
         margin-top: 10px;
@@ -360,8 +409,8 @@ width: 10%; height: 30px; background-color:rgb(11,157,138) ; color: #ffffff; bor
         width: 70%;
     }
     .bgimg2{
-        left: 5%;
-        top: 50px;
+        left: -60px;
+        top: 42px;
     }
     .bgimg2 button {
         width: 40%;
@@ -404,7 +453,7 @@ width: 10%; height: 30px; background-color:rgb(11,157,138) ; color: #ffffff; bor
         font-size: xx-small;
     }
     .black{
-        font-size: xx-small;
+        font-size: x-small;
     }
     .backg2{
         height: 90px;
@@ -454,13 +503,19 @@ width: 10%; height: 30px; background-color:rgb(11,157,138) ; color: #ffffff; bor
         margin: 0 auto;
     }
     .footer11{
-        margin: 30px auto;
+        margin: 14px auto;
         width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
     }
     .footer1{
         display: flex;
         flex-direction: column;
         
+    }
+    .footer{
+        height: 38vh;
     }
     .footer44 img{
         width: 100%;
@@ -470,41 +525,64 @@ width: 10%; height: 30px; background-color:rgb(11,157,138) ; color: #ffffff; bor
         left: 200px;
         width: 35%;
     }
+    .footer44{
+        width: -1%;
+    }
 }
 @media (max-width: 1200px){
     .btnparent{
         gap: 100px;
         width: 80%;
     }
+    .img1{
+        height: 310px;
+    }
     .footer44 button{
-        left: 260px;
-        top: 60px;
+        left: 190px;
+        top: 63px;
+        width: 34%;
     }
     .variety{
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(2,1fr);
     }
     .parent{
         grid-template-columns: repeat(2,1fr);
-        width: 73%;
+        width: 80%;
+    }
+    .parent2 img{
+        width: 250px;
+        height: 250px;
+    }
+    .parent2{
+        margin: 0 auto;
+    }
+    .parent1{
+        width: 80%;
+    }
+    .child2{
+        left: 35%;
+    }
+    .children1{
+        display: none;
+    }
+    .images1{
+        height: 275px;
+    } 
+    .images2{
+        height: 275px;
     }
     .bgimg2{
         left: -28%;
-    top: 164px;
+        top: 164px;
     }
     .bgimg1{
         left: 11%;
     }
-    .pchild1{
-        left: 11%;
-    }
     .pchild2{
-        left: 11%;
-    }
-    .parent2{
-        margin: auto 13px;
+        left: 0%;
     }
     .child3{
-        left: 16%;
+        left: 31%;
     }
     .bot{
         width: 96%;
@@ -515,5 +593,20 @@ width: 10%; height: 30px; background-color:rgb(11,157,138) ; color: #ffffff; bor
     }
     .footer{
         height: 25vh;
+    }
+    .footer1{
+        margin: 0 auto;
+    }
+    .border{
+        height: 8vh;
+    }
+    .footer22{
+        width: 14%;
+    }
+    .footer33{
+        width: 15%;
+    }
+    .footer44{
+        width: 37%;
     }
 }
