@@ -360,225 +360,7 @@ width: 10%; height: 30px; background-color:rgb(11,157,138) ; color: #ffffff; bor
     background-color: black;
     color: white;
 }
-@media (max-width: 600px)
-{
-    .img1{
-        height: 130px;
-    }
-    .bg1{
-        width: 100%; 
-        height: 185px;
-    }
-    .bg2{
-        left: 7%;
-        top: 19px;
-        gap: 10px;
-        font-size: small;
-    }
-    .variety{
-        grid-template-columns: repeat(2,1fr);
-        margin: 20px 50px;
-    }
-    .parent{
-        gap: 20px;
-        grid-template-columns: repeat(2,1fr);
-        width: 80%;
-        margin: 10px auto;
-    }
-    .child2{
-        left: 25px;
-        top: 121px;
-    }
-    .child2 button{
-        width: 29px;
-    height: 30px;
-    }
-    .parent2{
-        margin: 10px auto;
-    }
-    .child3{
-        left: 26%;
-    }
-    .pchild1{ 
-        margin: 0px auto;
-     } 
-     .pchild2{ 
-        margin: 0px auto;
-     }
-    .images1{
-        height: 166px;
-    }
-     .images2{
-        height: 166px;
-    }
-    .child1 h4{
-        margin-top: 10px;
-    }
-    .btns button{
-        width: 30%;
-        height: 40px;
-    }
-    .btns{
-        margin: 10px auto;
-    }
-    .bgimg1{
-        margin: 30px auto;
-        height: 200px;
-        width: 70%;
-    }
-    .bgimg2{
-        left: -15px;
-        top: 8px;
-        font-size: small;
-        gap: 7px;
-    }
-    .bgimg2 button {
-        width: 40%;
-        height: 50px;
-    }
-    .children1{
-        height: 260px;
-        width: 250px;
-        display: none;
-    }
-    }
-    .children2{
-        gap: 20px;
-        width: 80%;
-        margin: 0 auto;
-    }
-    .pchild1{
-        margin: 0px auto;
-    }
-    .child1{
-        gap: 3px;
-    }
-    .quote{
-        height: 170px;
-    }
-    .quote p{
-        font-size: small;
-    }
-    .quote1{
-        height: 130px;
-        width: 150px;
-    }
-    .bot{
-        height: 150px;
-        width: 90%;
-        border-radius: 10px;
-
-    }
-    .endparent{
-        align-items: center;
-    }
-    .end{
-        gap: 20px;
-    }
-    .iconn{
-        margin: 10px auto;
-        width: 100%;
-        display: none;
-    }
-    .iconn a{
-        font-size: 10px;
-    }
-    .btnparent{
-        font-size: 8px;
-        gap: 10px;
-    }
-    .bot{
-        height: 104px;
-    }
-    .black{
-        font-size: x-small;
-    }
-    .black1{
-        gap: 4px;
-    }
-    .backg2{
-        height: 90px;
-        margin: -15px auto;
-    }
-    .border h5{
-        display: none;
-    }
-    .posi{
-        display: none;
-    }
-    .icon{
-        display: none;
-    }
-    .border input {
-        width: 100px;
-    }
-    .hi1{
-        display: none;
-    }
-    .parent1{
-        margin: 50px auto;
-    }
-    .children2{
-        flex-direction: column;
-        gap: 0px;
-    }
-    .children1{
-        height: 300px;
-        width: 80%;
-        margin: 0 auto;
-    }
-    .pchild1{
-        margin: 13px auto;
-        border-radius: 0;
-    }
-    .pchild2{
-        margin: 13px auto;
-        border-radius: 0;
-    }
-    .middle1 h1{   
-    margin-top: 20PX;
-    }
-    .footer1{
-        margin: 0px auto;
-    gap: 0px;
-    }
-    .footer{
-        height: 54vh;
-    }
-    .footer22{
-        display: none;
-    }
-    .footer33{
-        display: none;
-    }
-    .footer44{
-        margin: 0 auto;
-    }
-    .footer11{
-        margin: 14px auto;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-    }
-    .footer1{
-        display: flex;
-        flex-direction: column;
-        
-    }
-    .footer44 img{
-        width: 100%;
-    }
-    .footer44 button{
-        top: 114px;
-        left: 200px;
-        width: 35%;
-    }
-    .end{
-        grid-template-columns: repeat(1,1fr);
-    }
-}
-@media (max-width: 1200px){
+@media(max-width: 1200px){
     .btnparent{
         gap: 100px;
         width: 80%;
@@ -675,5 +457,229 @@ width: 10%; height: 30px; background-color:rgb(11,157,138) ; color: #ffffff; bor
     .variety{
         gap: 50px;
 
+    }
+}
+@media(max-width:600px){
+    .img1{
+        height: 130px;
+    }
+    .bg1{
+        width: 100%; 
+        height: 185px;
+    }
+    .bg2{
+        left: 7%;
+        top: 19px;
+        gap: 10px;
+        font-size: small;
+    }
+    .variety{
+        grid-template-columns: repeat(2,1fr);
+        margin: 15px auto;
+        gap: 20px;
+    }
+    .parent{
+        gap: 20px;
+        grid-template-columns: repeat(2,1fr);
+        width: 80%;
+        margin: 10px auto;
+    }
+    .child2{
+        left: 35px;
+        top: 121px;
+    }
+    .child2 button{
+        width: 29px;
+    height: 30px;
+    }
+    .parent2{
+        margin: 10px auto;
+    }
+    .child3{
+        top: 213px;
+        left: 26%;
+    }
+    .pchild1{ 
+        margin: 0px auto;
+     } 
+     .pchild2{ 
+        margin: 0px auto;
+     }
+    .images1{
+        height: 166px;
+    }
+     .images2{
+        height: 166px;
+    }
+    .child1 h4{
+        margin-top: 10px;
+    }
+    .btns button{
+        width: 30%;
+        height: 40px;
+    }
+    .btns{
+        margin: 10px auto;
+    }
+    .bgimg1{
+        margin: 30px auto;
+        height: 200px;
+        width: 70%;
+    }
+    .bgimg2{
+        left: -15px;
+        top: 8px;
+        font-size: small;
+        gap: 7px;
+    }
+    .bgimg2 button {
+        width: 40%;
+        height: 50px;
+    }
+    .children1{
+        height: 260px;
+        width: 250px;
+        display: none;
+    }
+    .children2{
+        gap: 20px;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .pchild1{
+        margin: 0px auto;
+    }
+    .child1{
+        gap: 3px;
+    }
+    .quote{
+        height: 170px;
+    }
+    .quote p{
+        font-size: small;
+    }
+    .quote1{
+        height: 130px;
+        width: 150px;
+    }
+    .bot{
+        height: 150px;
+        width: 90%;
+        border-radius: 10px;
+
+    }
+    .endparent{
+        align-items: center;
+    }
+    .end{
+        gap: 20px;
+    }
+    .iconn{
+        margin: 10px auto;
+        width: 100%;
+        display: none;
+    }
+    .iconn a{
+        font-size: 10px;
+    }
+    .btnparent{
+        font-size: 8px;
+        gap: 10px;
+    }
+    .bot{
+        height: 104px;
+    }
+    .black{
+        font-size: x-small;
+    }
+    .black1{
+        gap: 4px;
+    }
+    .backg2{
+        height: 90px;
+        margin: -15px auto;
+    }
+    .border h5{
+        display: none;
+    }
+    .posi{
+        display: none;
+    }
+    .icon{
+        display: none;
+    }
+    .border input {
+        width: 100px;
+    }
+    .hi1{
+        display: none;
+    }
+    .parent1{
+        margin: 15px auto;
+    }
+    .children2{
+        flex-direction: column;
+        gap: 0px;
+    }
+    .children1{
+        height: 300px;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .parent2 img{
+        width: 250px;
+        height: 250px;
+    }
+    .pchild1{
+        margin: 13px auto;
+        border-radius: 0;
+        width: 250px;
+    }
+    .pchild2{
+        margin: 13px auto;
+        border-radius: 0;
+        width: 250px;
+    }
+    .middle1 h1{   
+    margin-top: 10PX;
+    }
+    .footer1{
+        margin: 0px auto;
+    gap: 0px;
+    }
+    .footer{
+        height: 54vh;
+    }
+    .footer22{
+        display: none;
+    }
+    .footer33{
+        display: none;
+    }
+    .footer44{
+        margin: 0 auto;
+    }
+    .footer11{
+        margin: 14px auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .footer1{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .footer44 img{
+        width: 100%;
+    }
+    .footer44 button{
+        top: 114px;
+        left: 200px;
+        width: 35%;
+    }
+    .end{
+        grid-template-columns: repeat(1,1fr);
     }
 }
