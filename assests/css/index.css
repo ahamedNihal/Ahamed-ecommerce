@@ -478,6 +478,7 @@ width: 10%; height: 30px; background-color:rgb(11,157,138) ; color: #ffffff; bor
     .iconn{
         margin: 10px auto;
         width: 100%;
+        display: none;
     }
     .iconn a{
         font-size: 10px;
@@ -564,9 +565,6 @@ width: 10%; height: 30px; background-color:rgb(11,157,138) ; color: #ffffff; bor
         display: flex;
         flex-direction: column;
         
-    }
-    .icon{
-        display: none;
     }
     .footer44 img{
         width: 100%;
