@@ -374,6 +374,7 @@ body{
     }
     .main{
         margin: 20px auto;
+        width: 83%;
     }
     .footer1{
         margin: 0px auto;
