@@ -254,27 +254,57 @@ body{
     }
     .mainchild3{
         gap: 30px;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(4,1fr);
+    }
+    .parent2{
+        margin: 0 auto;
+    }
+    .main{ 
+        margin: 30px auto;
+    }
+    .child3{
+        left: 20%;
+        top: 59%;
+    }
+    .pro{
+        height: 95px;
+        gap: 3px;
     }
     .number{
-        margin: 20px;
+        margin: 0px;
     }
     .last img{
-        width: 70%;
+        width: 100%;
         height: 100px;    
     }
-    .footer22{
-        display: none;
-    }
-    .footer33{
-        display: none;
-    }
-    .footer44 button{
-        left: 290px;
-        top: 43px;
+    .last{
+        gap: 20px;
     }
     .border{
         height: 8vh;
+    }
+    .footer44 button{
+        left: 211px;
+        top: 114px;
+        width: 34%;
+    }
+    .footer22{
+        width: 100%;
+    }
+    .footer33{
+        width: 100%;
+    }
+    .footer44{
+        width: 100%;
+    }
+    .footer11{
+        width: 100%;
+    }
+    .footer{
+        height: 100%;
+    }
+    .footer1{
+        margin: 0 auto;
     }
 }
 @media(max-width:600px){
@@ -285,14 +315,27 @@ body{
     .iconn a{
         font-size: 10px;
     }
+    .pchild1{
+        height: 220px;
+    }
+    .pchild2{
+        height: 220px;
+    }
+    .main2{
+        gap: 10px;
+    }
     .btnparent{
         font-size: xx-small;
     }
     .black{
-        font-size: xx-small;
+        font-size: x-small;
+    }
+    .black1{
+        gap: 4px;
     }
     .backg2{
         height: 90px;
+        margin: -15px auto;
     }
     .border h5{
         display: none;
@@ -310,23 +353,34 @@ body{
         display: none;
     }
     .mainchild3{
-        gap: 40px;
-        grid-template-columns: repeat(1,1fr);
+        gap: 20px;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .parent2{
+        gap: 10px;
+    }
+    .child3{
+        left: 16%;
+        top: 63%
     }
     .last1 h4{
         font-size: 08px;
     }
     .last{
-        margin: 20px auto;
-    }
-    .last img{
-        height: 40px;
+        display: none;
     }
     .number{
-        margin: 20px auto;
+        margin: 0px auto;
     }
     .main{
         margin: 30px auto;
+    }
+    .footer1{
+        margin: 0px auto;
+    gap: 0px;
+    }
+    .footer{
+        height: 54vh;
     }
     .footer22{
         display: none;
@@ -338,7 +392,7 @@ body{
         margin: 0 auto;
     }
     .footer11{
-        margin: 30px auto;
+        margin: 14px auto;
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -353,7 +407,7 @@ body{
         width: 100%;
     }
     .footer44 button{
-        top: 64px;
+        top: 114px;
         left: 200px;
         width: 35%;
     }
