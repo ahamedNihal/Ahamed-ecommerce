@@ -229,5 +229,161 @@ body{
     .border{
         height: 8vh;
     }
-    
+    .color{
+        height: 10vh;
+        gap: 10px;
+    }
+    .contact1{
+        margin: 30px auto;
+    }
+    .contact12{
+        padding: 20px;
+    }
+    .contact212 input{
+        width: 356px;
+    }
+    .contact2122{
+        left: 347px;
+    }
+    .contact2123{
+        left: 766px;
+    }
+    .contact3 input{
+        width: 96%;
+    }
+    .contact31{
+        left: 94%;
+    }
+    .contact2{
+        height: 100%;
+    }
+    .contact5 iframe{
+        height: 30vh;
+    }
+    .footer22{
+        width: 100%;
+    }
+    .footer33{
+        width: 100%;
+    }
+    .footer44{
+        width: 100%;
+    }
+    .footer11{
+        width: 100%;
+    }
+    .footer{
+        height: 100%;
+    }
+    .footer1{
+        margin: 0 auto;
+    }
+    .footer44 button{
+        left: 211px;
+        top: 114px;
+        width: 34%;
+    }
+}
+@media(max-width:600px){
+    .black{
+        font-size: x-small;
+    }
+    .black1{
+        gap: 4px;
+    }
+    .border h5{
+        display: none;
+    }
+    .posi{
+        display: none;
+    }
+    .icon{
+        display: none;
+    }
+    .border input {
+        width: 100px;
+    }
+    .hi1{
+        display: none;
+    }
+    .color{
+        gap: 5px;
+    }
+    .contact1 {
+        margin: 15px auto;
+    }
+    .contact11 {
+        gap: 30px;
+        flex-direction: column;
+    }
+    .contact12 {
+        padding: 6px;
+       gap: 5px;
+       width: 95%;
+    }
+    .contact212 input {
+        padding: 5px;
+        width: 137px;
+    }
+    .contact2122 {
+        left: 131px;
+        top: 20px;
+        font-size: unset;
+    }
+    .contact2123 {
+        left: 291px;
+        top: 20px;
+        font-size: unset;
+    }
+    .contact212{
+        gap: 10px;
+    }
+    .contact2{
+        padding: 20px;
+    }
+    .contact3 input{
+        padding: 5px;
+    }
+    .contact31{
+        font-size: unset;
+    top: 34px;
+    left: 92%;
+    }
+    .footer1{
+        margin: 0px auto;
+    gap: 0px;
+    }
+    .footer{
+        height: 54vh;
+    }
+    .footer22{
+        display: none;
+    }
+    .footer33{
+        display: none;
+    }
+    .footer44{
+        margin: 0 auto;
+    }
+    .footer11{
+        margin: 14px auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .footer1{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .footer44 img{
+        width: 100%;
+    }
+    .footer44 button{
+        top: 114px;
+        left: 200px;
+        width: 35%;
+    }
+
 }
