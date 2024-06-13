@@ -333,10 +333,6 @@ body{
     .black1{
         gap: 4px;
     }
-    .backg2{
-        height: 90px;
-        margin: -15px auto;
-    }
     .border h5{
         display: none;
     }
@@ -356,6 +352,10 @@ body{
         gap: 20px;
         grid-template-columns: repeat(2,1fr);
     }
+    .backg2{
+        height: 90px;
+        margin: -15px auto;
+    }
     .parent2{
         gap: 10px;
     }
@@ -373,7 +373,7 @@ body{
         margin: 0px auto;
     }
     .main{
-        margin: 30px auto;
+        margin: 20px auto;
     }
     .footer1{
         margin: 0px auto;

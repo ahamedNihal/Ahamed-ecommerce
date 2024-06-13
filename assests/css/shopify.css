@@ -207,6 +207,10 @@ display: flex;
     height: 1px;
     background-color: rgb(234,234,235);
 }
+.controlm99{
+    height: 1px;
+    background-color: rgb(234,234,235);
+}
 .controlm10{
     display: flex;
     flex-direction: column;
@@ -491,9 +495,47 @@ display: flex;
 .controlm1{
     width: 90%;
 }
+.control2{
+    height: 44vh;
+}
+.controlm100{
+    gap: 15px
+}
+.controlm102 img{
+    width: 150px;
+    height: 150px;
+}
 .imgs1{
     width: 100px;
     height: 100px;
+}
+.lastpro{
+    gap: 20px;
+}
+.lastproo{
+    gap: 30px;
+}
+.lastpro img{
+    height: 220px;
+}
+.lastproicon{
+    top: 172px;
+    left: 24px;
+}
+.final{
+    margin: 35px auto;
+}
+.final1 img{    
+    height: 220px;
+}
+.finall{
+    gap: 30px;
+}
+.question{
+    gap: 15px;
+}
+.enquiry{
+    margin: 20px auto;
 }
 .imgss{
     gap: 30px;
@@ -501,20 +543,42 @@ display: flex;
 .imgs{
     gap: 30px;
 }
+.footer22{
+    width: 100%;
+}
+.footer33{
+    width: 100%;
+}
+.footer44{
+    width: 100%;
+}
+.footer11{
+    width: 100%;
+}
+.footer{
+    height: 100%;
+}
+.footer1{
+    margin: 0 auto;
+}
 .footer44 button{
-    left: 260px;
-    top: 60px;
+    left: 211px;
+    top: 114px;
+    width: 34%;
 }
 .border{
     height: 8vh;
 }
 }
 @media(max-width:600px){
-    .black{
-        font-size: xx-small;
-    }
     .backg2{
         height: 90px;
+    }
+    .black{
+        font-size: x-small;
+    }
+    .black1{
+        gap: 4px;
     }
     .border h5{
         display: none;
@@ -531,11 +595,27 @@ display: flex;
     .hi1{
         display: none;
     }
+    .controlm1 {
+        width: 100%;
+    }
+    .imgss {
+        gap: 5px;
+    }
     .controlm{
         flex-direction: column;
     }
+    .controlm99{
+        display: none;
+    }
+    .control2 {
+        height: 100%;
+        margin-top: 10px;
+    }
+    .controlm10{
+        display: none;
+    }
     .imgs{
-        gap: 30px;
+        gap: 10px;
         display: flex;
         flex-direction: column;
     }
@@ -552,23 +632,56 @@ display: flex;
     .lastproo{
         display: grid;
         grid-template-columns: repeat(2,1fr);
-        margin: 20px
+        margin-top: 20px;
+        gap: 15px;
     }
     .lastproicon{
-        top: 130px;
-        left: 14px;
+        top: 97px;
+        left: 25px;
     }
-    .lastpro img{
-        height: 200px;
-        width: 120px;
+    .lastproicon button{
+        width: 23px;
+        height: 27px;
+    }
+    .lastpro img {
+        height: 130px;
+        width: 100%;
     }
     .finall{
         display: grid;
         grid-template-columns: repeat(2,1fr);
-    
+        margin: 20px auto;
+        gap: 15px;
+    }
+    .final1 img {
+        width: 100%;
+        height: 120px;
+    }
+    .review{
+        gap: 15px;
+    }
+    .lastpro {
+        gap: 1px;
+        margin: 0px auto;
+    }
+    .review1 {
+        gap: 45px;
+    }
+    .final11{
+        gap: 5px;
+    }
+    .final0{
+        gap: 5px;
     }
     .final{
-        margin: 20px auto;
+        margin: 15px auto;
+    }
+    .footer1{
+        margin: 0px auto;
+    gap: 0px;
+    }
+    .footer{
+        height: 54vh;
     }
     .footer22{
         display: none;
@@ -580,7 +693,7 @@ display: flex;
         margin: 0 auto;
     }
     .footer11{
-        margin: 30px auto;
+        margin: 14px auto;
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -595,7 +708,7 @@ display: flex;
         width: 100%;
     }
     .footer44 button{
-        top: 64px;
+        top: 114px;
         left: 200px;
         width: 35%;
     }
