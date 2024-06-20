@@ -140,6 +140,10 @@ position: relative; display: flex; flex-direction: column; gap: 10px;
 .child2{
     position: absolute; left: 28%; top: 63%; opacity: 0;
 }
+.over{
+    overflow: hidden;
+    border-radius: 40px;
+}
 .child1:hover .child2{
     opacity: 1; transition: 2s; 
 }
